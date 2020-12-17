@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ChartsModule } from 'ng2-charts';
+
+// import { ChartsModule } from 'ng2-charts';
 import { ComponentsModule } from './components/components.module';
 
 @NgModule({
@@ -11,7 +12,6 @@ import { ComponentsModule } from './components/components.module';
   ],
   imports: [
     BrowserModule,
-    ChartsModule,
     ComponentsModule
   ],
   providers: [],

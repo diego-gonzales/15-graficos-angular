@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { LineComponent } from './line/line.component';
 import { ChartsModule } from 'ng2-charts';
 import { BarComponent } from './bar/bar.component';
+import { DoughnutComponent } from './doughnut/doughnut.component';
 
 
 
 @NgModule({
   declarations: [
     LineComponent,
-    BarComponent
+    BarComponent,
+    DoughnutComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { BarComponent } from './bar/bar.component';
   ],
   exports: [
     LineComponent,
-    BarComponent
+    BarComponent,
+    DoughnutComponent
   ]
 })
 export class ComponentsModule { }

@@ -35,7 +35,15 @@ export class BarComponent {
 
   public randomize(): void {
     // Only changes 3 values
-    this.barChartData[0].data = [Math.round(Math.random() * 100), 59, 80, (Math.random() * 100), 56, (Math.random() * 100), 40];
+    this.barChartData[0].data = [
+      Math.round(Math.random() * 100),
+      59,
+      80,
+      (Math.random() * 100),
+      56,
+      (Math.random() * 100),
+      40
+    ];
   }
 
 }
